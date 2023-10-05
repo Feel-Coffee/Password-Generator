@@ -1,0 +1,98 @@
+@font-face{
+    font-family: Waltograph;
+    src: url('/waltograph42.ttf');
+    
+}
+
+body{
+    font-family: Waltograph;
+    background-image: url('/src/Components/dde1613a0a52ac572733ffa1d810d6fe.jpg');
+    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(120deg, #001f3f, #004080, #0066aa, #0099cc, #00ccff);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+
+  
+  label {
+    font-size: 1.8rem;
+  }
+  
+  input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.0rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #FAEBD7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+  }
+  
+  button:hover {
+    background-color: #DC143C;
+  }
+  
+  .password {
+    margin-top: 20px;
+  }
+  
+  .password h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .password p {
+    font-size: 1.7rem;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-family: ParryHotter !important;
+  }
+  
+  .password button {
+    margin-top: 10px;
+  }
+
+  
+  
